@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "dev": "maizzle serve",
+    "build": "maizzle build production"
+  },
+  "dependencies": {
+    "@maizzle/framework": "^4.0.0",
+    "tailwindcss-box-shadow": "^1.0.0",
+    "tailwindcss-email-variants": "^2.0.0",
+    "tailwindcss-mso": "^1.2.0"
+  }
+}
