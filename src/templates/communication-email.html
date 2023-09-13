@@ -1,0 +1,56 @@
+---
+title: "Communication"
+preheader: "Communication"
+bodyClass: bg-accent-light
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-full font-arial">
+      <tr>
+        <td align="center" class="bg-accent-light">
+          <table class="w-150 sm:w-full">
+            <tr>
+              <td class="px-5 py-12 sm:p-6">
+                <table class="w-full">
+                  <tr>
+                    <td>
+                      <div
+                        class="leading-[120px] sm:leading-16"
+                        role="separator"
+                      >
+                        &zwnj;
+                      </div>
+
+                      <h1
+                        class="m-0 text-5xl sm:text-[40px] leading-14 sm:leading-11 text-[#5a2e4e]"
+                      >
+                        @{{title}}
+                      </h1>
+
+                      <div class="leading-12 sm:leading-8" role="separator">
+                        &zwnj;
+                      </div>
+
+                      <p class="m-0 text-base leading-6 text-gray-dark">
+                        @{{body}}
+                      </p>
+
+                      <div class="leading-12 sm:leading-8" role="separator">
+                        &zwnj;
+                      </div>
+
+                      <div class="leading-16" role="separator">&zwnj;</div>
+
+                      <component src="src/components/footer.html"></component>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>
