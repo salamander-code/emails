@@ -16,6 +16,10 @@ module.exports = {
             light: '#d5d0f2',
           },
         },
+        main: "#1fb6ff",
+        tertiary: "#fc5b2e",
+        primary: "#5a2e4e",
+        secondary: "#7fd4d8",
         gray: {
           50: '#f9fafb',
           100: '#f4f5f7',
